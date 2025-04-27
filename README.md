@@ -1,10 +1,7 @@
-Claro! Aqui está a sua descrição reescrita de um jeito mais descontraído e com cara de aluno:
 
 ---
 
 # Sistema de Controle de Estacionamento 🚗
-
-Esse aqui é um sisteminha front-end que eu fiz pra controlar o estacionamento de um condomínio. Foi todo feito na raça, usando só HTML, CSS e JavaScript puro, sem nenhum framework!
 
 ## O que dá pra fazer 🎯
 
