@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Estacionamento - Listar Vagas</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sistema de Controle de Estacionamento</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Listar Vagas</a></li>
+                    <li><a href="cadastro.html">Cadastrar Reserva</a></li>
+                    <li><a href="#" id="btn-vagas-disponiveis">Vagas Disponíveis</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Vagas Ocupadas</h2>
+            <div id="mensagem"></div>
+            
+            <table id="tabela-vagas">
+                <thead>
+                    <tr>
+                        <th>Vaga</th>
+                        <th>Placa</th>
+                        <th>Veículo</th>
+                        <th>Cor</th>
+                        <th>Proprietário</th>
+                        <th>Apt.</th>
+                        <th>Bloco</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="vagas-registradas">
+                    <!-- Aqui serão inseridas as vagas dinamicamente -->
+                </tbody>
+            </table>
+        </section>
+
+        <section class="card" id="vagas-disponiveis-section" style="display: none;">
+            <h2>Vagas Disponíveis</h2>
+            <div id="lista-vagas-disponiveis"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Feitor por W4LTRICK <p>
+        </div>
+    </footer>
+
+    <script src="js/models/Vaga.js"></script>
+    <script src="js/controllers/EstacionamentoController.js"></script>
+    <script src="js/views/VagaView.js"></script>
+    <script src="js/views/MensagemView.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
